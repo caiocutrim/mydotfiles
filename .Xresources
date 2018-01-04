@@ -1,0 +1,72 @@
+Xterm.termName: xterm-256color
+URxvt.termName: rxvt-256color
+URxvt.imLocale: en_US.UTF-8
+URxvt*iconFile: /usr/share/icons/Moka/32x32/apps/gnome-terminal.png
+! Xft settings
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
+! fonts
+urxvt.italicFont: xft:Bitstream Vera Sans Mono:italic:autohint=true
+URxvt.font:xft:SauceCodePro Nerd Font:style=Regular:hinting=true:antialias=:true:size=13
+URxvt.boldFont:xft:SauceCodePro Nerd Font:style=Bold:hinting=true:size=13
+! scrollbar
+URxvt.scrollBar_right:false
+URxvt.scrollBar:false
+! size
+URxvt.size_hints:false
+URxvt.geometry:1366x768
+URxvt.lineSpace:10
+!to fit better in terminal
+URxvt.letterSpace:-1
+! --- Extensions ---
+! Fullscreen Switch 
+URxvt.perl-ext-common:fullscreen,default,matcher,tabbedex,searchable-scrollback<M-s>
+URxvt.keysym.F11: perl:fullscreen:switch
+URxvt.urlLauncher:dwb
+URxvt.matcher.button:1
+URxvt.tabbed.tabbar-fg:234
+URxvt.tabbed.tabbar-bg:236
+URxvt.tabbed.tab-fg:2
+URxvt.tabbed.tab-bg:1
+URxvt.tabbed.autohide:yes
+URxvt.tabbed.new-button:no
+URxvt.tabbed.title:no
+URxvt.searchable-scrollback:CM-s
+! --- Settings ---
+*cursorBlink:true
+/*boders*/
+*internalBorder:0
+*externalBorder:0
+*borderLess:false
+
+! color scheme
+*background:             #2b2b2c
+*foreground:             #eeeeee
+*cursorColor:            #eeeeee
+! black
+*color0:                 #101010
+*color8:                 #565656
+! red
+*color1:                 #bd4a4a
+*color9:                 #cc6666
+! green
+*color2:                 #26C281
+*color10:                #26C281
+! yellow
+*color3:                 #e8ae5b
+*color11:                #ffd965
+! blue
+*color4:                 #3a526b
+*color12:                #66aabb
+! magenta
+*color5:                 #ff5879
+*color13:                #f26b9e
+! cyan
+*color6:                 #72ad8c
+*color14:                #9fe3bc
+! white
+*color7:                 #fdf6e3
+*color15:                #c3c2c5
